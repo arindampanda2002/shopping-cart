@@ -6,3 +6,11 @@
     bottom:0px;
     left:0px;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px 20px 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #585858;
+}
