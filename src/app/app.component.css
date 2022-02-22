@@ -201,7 +201,27 @@
     border: 2px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 8px;
+}
 
+.add-to-cart {
+    margin-top: 20px;
+    padding: 10px 0px 10px 0px; 
+    display: flex;
+    justify-content: center;
+    background: #13324A;
+    box-shadow: 0px 1px 15px rgba(2, 2, 2, 0.04), inset 0px 0px 15px rgba(88, 88, 88, 0.3);
+}
+
+.add-to-cart__text {
+    margin-left: 4px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.045em;
+    color: #FFFFFF;
 }
 
 @media screen and (max-width: 600px){
