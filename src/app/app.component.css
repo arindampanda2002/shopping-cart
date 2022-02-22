@@ -10,7 +10,24 @@
 .header {
     display: flex;
     justify-content: space-between;
-    margin: 20px 20px 20px 20px;
+    margin: 20px 20px 0px 20px;
     padding-bottom: 20px;
     border-bottom: 1px solid #585858;
+}
+
+.header__image:hover {
+    cursor: pointer;
+}
+
+.topImage {
+    display: flex;
+    justify-content: center;
+    margin: 20px 20px 0px 20px;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 600px){
+    .topImage__image {
+        width: 100%;
+    }
 }
