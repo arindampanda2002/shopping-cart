@@ -30,10 +30,11 @@
 .head-content {
     display: flex;
     justify-content: center;
-    margin: 40px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
 }
 
 .head-content__main-text {
+    margin-top: 40px;
     font-family: DM Sans;
     font-style: normal;
     font-weight: bold;
@@ -50,6 +51,157 @@
     line-height: 193.7%;
     color: #C4CACF;
     margin: 10px 0px 10px 0px;
+}
+
+.head-content__content-price {
+    margin-top: 40px;
+    display: flex;
+}
+
+.head-content__price {
+    margin-right: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+
+.head-content__discount-price {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    text-decoration-line: line-through;
+}
+
+.plan {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.plan__one-month {
+    background: #21272C;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.plan__one-month__content {
+    margin-left: 10px;
+}
+
+.plan__one-month__content__tag {
+    width: 82px;
+    margin-top: 10px;
+    display: flex;
+    background: #067BD8;
+    border-radius: 8px;
+}
+
+.plan__one-month__content__popular {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 6px;
+    line-height: 223.7%;
+    color: #FFFFFF;
+}
+
+.plan__one-month__content__tag__image {
+    margin-left: 7px;
+}
+
+.plan__one-month__content__details {
+    margin-top: 10px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 136.2%;
+    color: #FFFFFF;
+}
+
+.plan__one-month__content__saving__price {
+    margin-top: 10px;
+    font-family: Belgrano;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 193.7%;
+    color: #465D68;
+}
+
+.plan__one-month__content__saving {
+    margin-top: 10px;
+    display: flex;
+}
+
+.plan__one-month__content__saving__value {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 136.2%;
+    color: #24DB6D;
+}
+
+.plan__one-month__content__saving__text {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 136.2%;
+    color: #DB9D24;
+}
+
+.plan__one-month__price {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.plan__one-month__current-price {
+    font-family: DM Serif Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 223.7%;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.plan__one-month__discount-price {
+    font-family: DM Serif Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 223.7%;
+    text-align: right;
+    text-decoration-line: line-through;
+    color: #4C6070;
+}
+
+.plan__three-month {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    background: #374B5B;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 8px;
+
 }
 
 @media screen and (max-width: 600px){
