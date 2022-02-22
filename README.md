@@ -1,3 +1,9 @@
+![Screenshot (51)](https://user-images.githubusercontent.com/88325438/155085613-696e5b16-2d32-49ee-94d5-3b81e54c6dbd.png)
+![Screenshot (52)](https://user-images.githubusercontent.com/88325438/155085621-b50c112a-3ccf-459f-94b8-b49465f9cee4.png)
+![Screenshot (53)](https://user-images.githubusercontent.com/88325438/155085638-a0d546a6-b46a-425e-b557-cd0c0256013e.png)
+![Screenshot (54)](https://user-images.githubusercontent.com/88325438/155085654-a77fd098-6a12-4bcc-9ff2-b8203d1225ec.png)
+
+
 # ShoppingCart
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.3.
