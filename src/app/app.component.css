@@ -5,6 +5,7 @@
     right:0px;
     bottom:0px;
     left:0px;
+    overflow-y: scroll;
 }
 
 .header {
@@ -19,15 +20,40 @@
     cursor: pointer;
 }
 
-.topImage {
+.top-image {
     display: flex;
     justify-content: center;
     margin: 20px 20px 0px 20px;
     object-fit: contain;
 }
 
+.head-content {
+    display: flex;
+    justify-content: center;
+    margin: 40px 20px 20px 20px;
+}
+
+.head-content__main-text {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 136.2%;
+    color: #FFFFFF;
+}
+
+.head-content__info-text {
+    font-family: Belgrano;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 193.7%;
+    color: #C4CACF;
+    margin: 10px 0px 10px 0px;
+}
+
 @media screen and (max-width: 600px){
-    .topImage__image {
+    .top-image__image {
         width: 100%;
     }
 }
